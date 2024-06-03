@@ -19,7 +19,7 @@ font pango:UbuntuMono Nerd Font 13
 # exec --no-startup-id /usr/lib/gsd-xsettings
 exec_always --no-startup-id picom --config $HOME/.config/picom/picom.conf
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh &
-exec_always feh --bg-scale ~/.config/feh/background_image.png
+exec_always feh --bg-center --bg-scale ~/.config/feh/background_image.png
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
